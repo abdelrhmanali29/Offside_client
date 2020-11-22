@@ -1,0 +1,30 @@
+.match {
+  width: 80%;
+  margin: 20px auto;
+  background-color: rgb(220, 218, 226);
+}
+
+.teams {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.startTime {
+  display: inline;
+}
+
+.timeInfo {
+  width: 30%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  width: 60px;
+  height: 40px;
+}
