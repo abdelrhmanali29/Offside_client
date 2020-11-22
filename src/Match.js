@@ -71,9 +71,13 @@ const Match = ({
       <div className="timeInfo">
         <p className="date">{date}</p>
         <p className="startTime">{time}</p>
-        <button className="btn" onClick={toggle}>
-          {stat === "soon" ? "Start" : "Stop"}
-        </button>
+        {stat === "soon" ? (
+          <button className="btn" onClick={toggle}>
+            Start
+          </button>
+        ) : (
+          ""
+        )}
       </div>
       <button className="btn" onClick={handleDelete}>
         Delete
